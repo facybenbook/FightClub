@@ -320,6 +320,24 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce916a468cbb4446cb2369b31146137c, type: 3}
+--- !u!1 &717014910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 19707382410517286, guid: ac08c960750734bb6b4e87b9ec67dddb,
+    type: 3}
+  m_PrefabInstance: {fileID: 19707383106917299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &717014911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717014910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 717cfcf3f2b684cfd8388ee43ac848ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2029225258
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -416,7 +434,7 @@ PrefabInstance:
     - target: {fileID: 19707383539797153, guid: ac08c960750734bb6b4e87b9ec67dddb,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 19707383539797153, guid: ac08c960750734bb6b4e87b9ec67dddb,
         type: 3}
@@ -426,7 +444,7 @@ PrefabInstance:
     - target: {fileID: 19707383539797153, guid: ac08c960750734bb6b4e87b9ec67dddb,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 19707383539797153, guid: ac08c960750734bb6b4e87b9ec67dddb,
         type: 3}
@@ -441,12 +459,17 @@ PrefabInstance:
     - target: {fileID: 19707383539797153, guid: ac08c960750734bb6b4e87b9ec67dddb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 19707383539797153, guid: ac08c960750734bb6b4e87b9ec67dddb,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 392638770705824226, guid: ac08c960750734bb6b4e87b9ec67dddb,
+        type: 3}
+      propertyPath: walkSpeed
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}

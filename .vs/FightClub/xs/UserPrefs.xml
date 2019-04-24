@@ -1,5 +1,9 @@
 ﻿<Properties StartupConfiguration="{D3C64FA7-17DD-839C-BB1C-A260AD9FE978}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Helper Scripts/TagManager.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="34" Column="1" />
+      <File FileName="Assets/Scripts/Helper Scripts/TagManager.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
@@ -18,7 +22,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="2060e9f7-bc70-4a18-b629-648b61d10d6a" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="569be53d-1bef-458a-9be9-3fb580ce13ff" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
