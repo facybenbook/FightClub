@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // animate the gameobject
-    // private PlayerAnimation player_Animation;
+    private CharacterAnimation playerAnim;
 
     private Rigidbody myBody;
 
@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     void Awake()
     {
         myBody = GetComponent<Rigidbody>();
-        // player_Animation = GetComponentInChildren<PlayerAnimation>();
+        playerAnim = GetComponentInChildren<CharacterAnimation>();
     }
 
     // Update is called once per frame
@@ -27,6 +27,7 @@ public class PlayerMovement : MonoBehaviour
     {
         //print("The value is: " + Input.GetAxisRaw("HORIZONTAL_AXIS);
         RotatePlayer();
+        AnimatePlayerWalk();
     }
 
     // used to move the body
@@ -38,21 +39,32 @@ public class PlayerMovement : MonoBehaviour
     void DetectMovement()
     {
         myBody.velocity = new Vector3(
-            Input.GetAxisRaw("Horizontal") * (-walkSpeed),
+            Input.GetAxisRaw(Axis.HORIZONTAL_AXIS) * (-walkSpeed),
             myBody.velocity.y,
-            Input.GetAxisRaw("Vertical") * (-zSpeed));
+            Input.GetAxisRaw(Axis.VERTICAL_AXIS) * (-zSpeed));
     }
 
     // the player's rotation.
     void RotatePlayer()
     {
-        if(Input.GetAxisRaw("Horizontal") > 0)
+        if(Input.GetAxisRaw(Axis.HORIZONTAL_AXIS) > 0)
         {
             transform.rotation = Quaternion.Euler(0f, -Mathf.Abs(yRotation), 0f);
-        } else if(Input.GetAxisRaw("Horizontal") < 0)
+        } else if(Input.GetAxisRaw(Axis.HORIZONTAL_AXIS) < 0)
         {
             transform.rotation = Quaternion.Euler(0f, Mathf.Abs(yRotation), 0f);
 
+        }
+    }
+
+    void AnimatePlayerWalk()
+    {
+        if(Input.GetAxisRaw(Axis.HORIZONTAL_AXIS) != 0 || Input.GetAxisRaw(Axis.VERTICAL_AXIS) != 0)
+        {
+            playerAnim.Walk(true);
+        } else
+        {
+            playerAnim.Walk(false);
         }
     }
 }

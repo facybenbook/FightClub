@@ -23,24 +23,24 @@ public class AnimationTags
     public const string STAND_UP_TRIGGER = "StandUp";
     public const string HIT_TRIGGER = "Hit";
     public const string DEATH_TRIGGER = "Death";
+}
 
-    public static class Axis
-    {
-        public const string HORIZONTAL_AXIS = "Horizontal";
-        public const string VERTICAL_AXIS = "Vertical";
-    }
+public class Axis
+{
+    public const string HORIZONTAL_AXIS = "Horizontal";
+    public const string VERTICAL_AXIS = "Vertical";
+}
 
-    public class Tags
-    {
-        public const string GROUND_TAG = "Ground";
-        public const string PLAYER_TAG = "Player";
-        public const string ENEMY_TAG = "Enemy";
+public class Tags
+{
+    public const string GROUND_TAG = "Ground";
+    public const string PLAYER_TAG = "Player";
+    public const string ENEMY_TAG = "Enemy";
 
-        public const string LEFT_ARM_TAG = "LeftArm";
-        public const string LEFT_LEG_TAG = "LeftLeg";
-        public const string UNTAGGED_TAG = "Untagged";
-        public const string MAIN_CAMERA_TAG = "MainCamera";
-        public const string HEALTH_UI = "HealthUI";
+    public const string LEFT_ARM_TAG = "LeftArm";
+    public const string LEFT_LEG_TAG = "LeftLeg";
+    public const string UNTAGGED_TAG = "Untagged";
+    public const string MAIN_CAMERA_TAG = "MainCamera";
+    public const string HEALTH_UI = "HealthUI";
 
-    }
 }
