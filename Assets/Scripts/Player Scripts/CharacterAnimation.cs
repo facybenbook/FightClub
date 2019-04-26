@@ -42,10 +42,4 @@ public class CharacterAnimation : MonoBehaviour
     {
         anim.SetTrigger(AnimationTags.KICK_2_TRIGGER);
     }
-
-
-
-
-
-
 }

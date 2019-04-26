@@ -1,10 +1,10 @@
 ﻿<Properties StartupConfiguration="{D3C64FA7-17DD-839C-BB1C-A260AD9FE978}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/PlayerAttack.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/CharacterAnimation.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="30" Column="29" />
-      <File FileName="Assets/Scripts/Player Scripts/CharacterAnimation.cs" Line="47" Column="1" />
-      <File FileName="Assets/Scripts/Helper Scripts/TagManager.cs" Line="27" Column="1" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="19" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="29" Column="24" />
+      <File FileName="Assets/Scripts/Helper Scripts/TagManager.cs" Line="31" Column="52" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="27" Column="38" />
+      <File FileName="Assets/Scripts/Player Scripts/CharacterAnimation.cs" Line="18" Column="51" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -14,7 +14,7 @@
               <Node name="Scripts" expanded="True">
                 <Node name="Helper Scripts" expanded="True" />
                 <Node name="Player Scripts" expanded="True">
-                  <Node name="PlayerAttack.cs" selected="True" />
+                  <Node name="CharacterAnimation.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -25,7 +25,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="569be53d-1bef-458a-9be9-3fb580ce13ff" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a99085b3-563b-4859-b222-45ae41b966c2" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
