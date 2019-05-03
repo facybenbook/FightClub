@@ -60,7 +60,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Enemy Scripts\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\Helper Scripts\TagManager.cs" />
+    <Compile Include="Assets\Scripts\Player Scripts\AttackUniversal.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\CharacterAnimation.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />

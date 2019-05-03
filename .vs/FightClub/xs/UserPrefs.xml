@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{D3C64FA7-17DD-839C-BB1C-A260AD9FE978}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/CharacterAnimation.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/AttackUniversal.cs">
     <Files>
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="29" Column="24" />
-      <File FileName="Assets/Scripts/Helper Scripts/TagManager.cs" Line="31" Column="52" />
-      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="27" Column="38" />
-      <File FileName="Assets/Scripts/Player Scripts/CharacterAnimation.cs" Line="18" Column="51" />
+      <File FileName="Assets/Scripts/Helper Scripts/TagManager.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="97" Column="36" />
+      <File FileName="Assets/Scripts/Player Scripts/CharacterAnimation.cs" Line="52" Column="61" />
+      <File FileName="Assets/Scripts/Enemy Scripts/EnemyMovement.cs" Line="98" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/AttackUniversal.cs" Line="21" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,9 +14,10 @@
           <Node name="FightClub" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
+                <Node name="Enemy Scripts" expanded="True" />
                 <Node name="Helper Scripts" expanded="True" />
                 <Node name="Player Scripts" expanded="True">
-                  <Node name="CharacterAnimation.cs" selected="True" />
+                  <Node name="AttackUniversal.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -25,7 +28,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a99085b3-563b-4859-b222-45ae41b966c2" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="10298f78-5c07-4483-9246-df0ae9662a3b" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
