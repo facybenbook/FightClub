@@ -61,11 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemy Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\Helper Scripts\DeactivateGameObject.cs" />
     <Compile Include="Assets\Scripts\Helper Scripts\TagManager.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\AttackUniversal.cs" />
-    <Compile Include="Assets\Scripts\Player Scripts\CharacterAnimation.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerAttack.cs" />
     <Compile Include="Assets\Scripts\Player Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Universal Scripts\AttackUniversal.cs" />
+    <Compile Include="Assets\Scripts\Universal Scripts\CharacterAnimation.cs" />
+    <Compile Include="Assets\Scripts\Universal Scripts\CharacterAnimationDelegate.cs" />
+    <Compile Include="Assets\Scripts\Universal Scripts\HealthScript.cs" />
     <None Include="Assets\Shaders\MatCapSimple.shader" />
     <None Include="Assets\Shaders\AdditiveTint.shader" />
     <None Include="Assets\Shaders\UntilIlum.shader" />

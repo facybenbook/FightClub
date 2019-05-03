@@ -93,7 +93,4 @@ public class EnemyMovement : MonoBehaviour
             followPlayer = true;
         }
     }
-
-
-
 }

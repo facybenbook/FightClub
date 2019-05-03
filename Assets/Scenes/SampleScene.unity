@@ -448,54 +448,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 447982974, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: collisionLayer.m_Bits
-      value: 1024
-      objectReference: {fileID: 0}
-    - target: {fileID: 447982974, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: isPlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 447982974, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: hitFX
+    - target: {fileID: 19707383106917301, guid: ac08c960750734bb6b4e87b9ec67dddb,
+        type: 3}
+      propertyPath: wooshSound
       value: 
-      objectReference: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
-    - target: {fileID: 681185422, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: collisionLayer.m_Bits
-      value: 1024
-      objectReference: {fileID: 0}
-    - target: {fileID: 681185422, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: isPlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 681185422, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: hitFX
+      objectReference: {fileID: 8300000, guid: 0313eac7311b34c3c9a0ac1cb1c3e053, type: 3}
+    - target: {fileID: 19707383106917301, guid: ac08c960750734bb6b4e87b9ec67dddb,
+        type: 3}
+      propertyPath: fallSound
       value: 
-      objectReference: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
-    - target: {fileID: 1746998164, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: collisionLayer.m_Bits
-      value: 1024
-      objectReference: {fileID: 0}
-    - target: {fileID: 1746998164, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: isPlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1746998164, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: hitFX
+      objectReference: {fileID: 8300000, guid: 5974b35ac0ced49fe9ebe33796c18299, type: 3}
+    - target: {fileID: 19707383106917301, guid: ac08c960750734bb6b4e87b9ec67dddb,
+        type: 3}
+      propertyPath: groundHitSound
       value: 
-      objectReference: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
-    - target: {fileID: 1842888932, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: collisionLayer.m_Bits
-      value: 1024
-      objectReference: {fileID: 0}
-    - target: {fileID: 1842888932, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: isPlayer
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1842888932, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
-      propertyPath: hitFX
+      objectReference: {fileID: 8300000, guid: 149c9bf1fe1bc422d98c82402f7b2776, type: 3}
+    - target: {fileID: 19707383106917301, guid: ac08c960750734bb6b4e87b9ec67dddb,
+        type: 3}
+      propertyPath: deadSounnd
       value: 
-      objectReference: {fileID: 115594, guid: efd3011863918584d94591e177fa8d29, type: 3}
+      objectReference: {fileID: 8300000, guid: a7087cc24d79a4197bd5d33704e09b58, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac08c960750734bb6b4e87b9ec67dddb, type: 3}
 --- !u!1001 &1129635660007074776
@@ -565,5 +537,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1391262952, guid: 3e53c7b099f554f24ab35b17745bb47d, type: 3}
+      propertyPath: wooshSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 0313eac7311b34c3c9a0ac1cb1c3e053, type: 3}
+    - target: {fileID: 1391262952, guid: 3e53c7b099f554f24ab35b17745bb47d, type: 3}
+      propertyPath: fallSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 5974b35ac0ced49fe9ebe33796c18299, type: 3}
+    - target: {fileID: 1391262952, guid: 3e53c7b099f554f24ab35b17745bb47d, type: 3}
+      propertyPath: groundHitSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 149c9bf1fe1bc422d98c82402f7b2776, type: 3}
+    - target: {fileID: 1391262952, guid: 3e53c7b099f554f24ab35b17745bb47d, type: 3}
+      propertyPath: deadSounnd
+      value: 
+      objectReference: {fileID: 8300000, guid: a7087cc24d79a4197bd5d33704e09b58, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3e53c7b099f554f24ab35b17745bb47d, type: 3}

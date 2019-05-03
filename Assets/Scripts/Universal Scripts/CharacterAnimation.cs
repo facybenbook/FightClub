@@ -43,7 +43,6 @@ public class CharacterAnimation : MonoBehaviour
         anim.SetTrigger(AnimationTags.KICK_2_TRIGGER);
     }
 
-
     // ENEMY ANIMATIONS
     public void EnemyAttack(int attack)
     {
@@ -88,4 +87,3 @@ public class CharacterAnimation : MonoBehaviour
         anim.SetTrigger(AnimationTags.DEATH_TRIGGER);
     }
 }
-

@@ -1,12 +1,15 @@
 ﻿<Properties StartupConfiguration="{D3C64FA7-17DD-839C-BB1C-A260AD9FE978}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Player Scripts/AttackUniversal.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Universal Scripts/CharacterAnimationDelegate.cs">
     <Files>
-      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="29" Column="24" />
-      <File FileName="Assets/Scripts/Helper Scripts/TagManager.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="16" Column="1" />
+      <File FileName="Assets/Scripts/Helper Scripts/TagManager.cs" Line="43" Column="56" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="97" Column="36" />
-      <File FileName="Assets/Scripts/Player Scripts/CharacterAnimation.cs" Line="52" Column="61" />
-      <File FileName="Assets/Scripts/Enemy Scripts/EnemyMovement.cs" Line="98" Column="1" />
-      <File FileName="Assets/Scripts/Player Scripts/AttackUniversal.cs" Line="21" Column="39" />
+      <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimation.cs" Line="5" Column="48" />
+      <File FileName="Assets/Scripts/Enemy Scripts/EnemyMovement.cs" Line="95" Column="6" />
+      <File FileName="Assets/Scripts/Universal Scripts/AttackUniversal.cs" Line="59" Column="10" />
+      <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimationDelegate.cs" Line="19" Column="48" />
+      <File FileName="Assets/Scripts/Helper Scripts/DeactivateGameObject.cs" Line="18" Column="37" />
+      <File FileName="Assets/Scripts/Universal Scripts/HealthScript.cs" Line="18" Column="72" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,8 +19,9 @@
               <Node name="Scripts" expanded="True">
                 <Node name="Enemy Scripts" expanded="True" />
                 <Node name="Helper Scripts" expanded="True" />
-                <Node name="Player Scripts" expanded="True">
-                  <Node name="AttackUniversal.cs" selected="True" />
+                <Node name="Player Scripts" expanded="True" />
+                <Node name="Universal Scripts" expanded="True">
+                  <Node name="CharacterAnimationDelegate.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
@@ -28,7 +32,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="10298f78-5c07-4483-9246-df0ae9662a3b" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="967b90c9-ec47-4160-aeb4-c1aeb0dbcfb9" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
