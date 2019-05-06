@@ -16,10 +16,11 @@ public class CharacterAnimationDelegate : MonoBehaviour
     private AudioSource audioSource;
 
     [SerializeField]
-    private AudioClip wooshSound, fallSound, groundHitSound, deadSounnd;
+    private AudioClip whooshSound, fallSound, groundHitSound, deadSound;
 
     private EnemyMovement enemyMovement;
 
+    private ShakeCamera shakeCamera;
 
     void Awake()
     {
@@ -30,8 +31,8 @@ public class CharacterAnimationDelegate : MonoBehaviour
         if(gameObject.CompareTag(Tags.ENEMY_TAG))
         {
             enemyMovement = GetComponentInParent<EnemyMovement>();
-
         }
+        shakeCamera = GameObject.FindWithTag(Tags.MAIN_CAMERA_TAG).GetComponent<ShakeCamera>();
     }
 
     // ARMS
@@ -118,4 +119,66 @@ public class CharacterAnimationDelegate : MonoBehaviour
         yield return new WaitForSeconds(standUpTimer);
         animationScript.StandUp();
     }
+
+
+    // SOUNDS
+    public void AttackFXSound()
+    {
+        audioSource.volume = 0.2f;
+        audioSource.clip = whooshSound;
+        audioSource.Play();
+    }
+
+    void CharacterDiedSound()
+    {
+        audioSource.volume = 1f;
+        audioSource.clip = deadSound;
+        audioSource.Play();
+    }
+
+    void EnemyKnockedDown()
+    {
+        audioSource.clip = fallSound;
+        audioSource.Play();
+    }
+
+    void EnemyHitGround()
+    {
+        audioSource.clip = groundHitSound;
+        audioSource.Play();
+    }
+
+    void DisableMovement()
+    {
+        enemyMovement.enabled = false;
+
+        // set the enemy parent to defualt layer
+        transform.parent.gameObject.layer = 0;
+    }
+     
+    void EnableMovement()
+    {
+        enemyMovement.enabled = true;
+
+        // set the enemy parent to ebemy layer
+        transform.parent.gameObject.layer = 10;
+    }
+
+    void ShakeCameraOnFall()
+    {
+        shakeCamera.ShouldShake = true;
+    }
+
+    void CharacterDied()
+    {
+        Invoke("DeactivateGameObject", 2f);
+    }
+
+    void DeactivateGameObject()
+    {
+        EnemyManager.instance.SpawnEnemy();
+        gameObject.SetActive(false);
+    }
+
+
 }

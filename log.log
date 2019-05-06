@@ -1,0 +1,47 @@
+commit 229980d2f819a713a5ca22846fe3fa19f408dad9
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Fri May 3 18:28:51 2019 -0400
+
+    FX and sound complete
+
+commit e8fdfb9e0bd664b8c3d144611d80148200d29771
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Fri May 3 02:04:44 2019 -0400
+
+    Enemy works, moves add
+
+commit bffba8f7f9c5f508400718652efdff05209d4b5e
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Thu Apr 25 20:55:34 2019 -0400
+
+    Enemy Character create
+
+commit 52a34b104acbfa2776d1c95cf99186b66c71ee5b
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Thu Apr 25 20:23:54 2019 -0400
+
+    Player Animation complete
+
+commit d4ef64ce452f23fd5809f266f2d16d38619ffda6
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Wed Apr 24 21:56:36 2019 -0400
+
+    Update: Animate character 1
+
+commit fbcb1449cb5fb9d664f5c3d2effa5dc816326a6f
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Tue Apr 23 21:16:52 2019 -0400
+
+    Player movement complete
+
+commit 634fda0ac6cca8ba35482bf65d83d30ffec279a7
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Sat Apr 20 06:27:35 2019 -0400
+
+    All states created
+
+commit 8de98efe04925710f74e93d8ed229143a6bb40ce
+Author: Rajat Gupta <imrajatgupta@gmail.com>
+Date:   Wed Apr 17 17:16:21 2019 -0400
+
+    First commit

@@ -4,12 +4,14 @@
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="16" Column="1" />
       <File FileName="Assets/Scripts/Helper Scripts/TagManager.cs" Line="43" Column="56" />
       <File FileName="Assets/Scripts/Player Scripts/PlayerAttack.cs" Line="97" Column="36" />
-      <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimation.cs" Line="5" Column="48" />
-      <File FileName="Assets/Scripts/Enemy Scripts/EnemyMovement.cs" Line="95" Column="6" />
-      <File FileName="Assets/Scripts/Universal Scripts/AttackUniversal.cs" Line="59" Column="10" />
-      <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimationDelegate.cs" Line="19" Column="48" />
+      <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimation.cs" Line="16" Column="32" />
+      <File FileName="Assets/Scripts/Enemy Scripts/EnemyMovement.cs" Line="16" Column="11" />
+      <File FileName="Assets/Scripts/Universal Scripts/AttackUniversal.cs" Line="58" Column="37" />
+      <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimationDelegate.cs" Line="173" Column="6" />
       <File FileName="Assets/Scripts/Helper Scripts/DeactivateGameObject.cs" Line="18" Column="37" />
-      <File FileName="Assets/Scripts/Universal Scripts/HealthScript.cs" Line="18" Column="72" />
+      <File FileName="Assets/Scripts/Universal Scripts/HealthScript.cs" Line="36" Column="102" />
+      <File FileName="Assets/Scripts/Camera Scripts/ShakeCamera.cs" Line="27" Column="17" />
+      <File FileName="Assets/Scripts/Helper Scripts/EnemyManager.cs" Line="22" Column="22" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,6 +19,7 @@
           <Node name="FightClub" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
+                <Node name="Camera Scripts" expanded="True" />
                 <Node name="Enemy Scripts" expanded="True" />
                 <Node name="Helper Scripts" expanded="True" />
                 <Node name="Player Scripts" expanded="True" />
@@ -32,7 +35,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="967b90c9-ec47-4160-aeb4-c1aeb0dbcfb9" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4e8cf8ce-076c-4762-92b0-89278fc9b018" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
