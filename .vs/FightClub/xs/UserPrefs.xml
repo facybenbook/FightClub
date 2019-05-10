@@ -7,7 +7,7 @@
       <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimation.cs" Line="16" Column="32" />
       <File FileName="Assets/Scripts/Enemy Scripts/EnemyMovement.cs" Line="16" Column="11" />
       <File FileName="Assets/Scripts/Universal Scripts/AttackUniversal.cs" Line="58" Column="37" />
-      <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimationDelegate.cs" Line="173" Column="6" />
+      <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimationDelegate.cs" Line="79" Column="28" />
       <File FileName="Assets/Scripts/Helper Scripts/DeactivateGameObject.cs" Line="18" Column="37" />
       <File FileName="Assets/Scripts/Universal Scripts/HealthScript.cs" Line="36" Column="102" />
       <File FileName="Assets/Scripts/Camera Scripts/ShakeCamera.cs" Line="27" Column="17" />
@@ -35,7 +35,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="4e8cf8ce-076c-4762-92b0-89278fc9b018" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b871bf53-e492-42aa-a741-3b9c8e2d9b69" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -179,6 +179,4 @@ public class CharacterAnimationDelegate : MonoBehaviour
         EnemyManager.instance.SpawnEnemy();
         gameObject.SetActive(false);
     }
-
-
 }
