@@ -71,6 +71,7 @@
     <Compile Include="Assets\Scripts\Universal Scripts\CharacterAnimation.cs" />
     <Compile Include="Assets\Scripts\Universal Scripts\CharacterAnimationDelegate.cs" />
     <Compile Include="Assets\Scripts\Universal Scripts\HealthScript.cs" />
+    <Compile Include="Assets\Scripts\Universal Scripts\HealthUI.cs" />
     <None Include="Assets\Shaders\MatCapSimple.shader" />
     <None Include="Assets\Shaders\AdditiveTint.shader" />
     <None Include="Assets\Shaders\UntilIlum.shader" />

@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{D3C64FA7-17DD-839C-BB1C-A260AD9FE978}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Universal Scripts/CharacterAnimationDelegate.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Universal Scripts/HealthScript.cs">
     <Files>
       <File FileName="Assets/Scripts/Player Scripts/PlayerMovement.cs" Line="16" Column="1" />
       <File FileName="Assets/Scripts/Helper Scripts/TagManager.cs" Line="43" Column="56" />
@@ -7,11 +7,12 @@
       <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimation.cs" Line="16" Column="32" />
       <File FileName="Assets/Scripts/Enemy Scripts/EnemyMovement.cs" Line="16" Column="11" />
       <File FileName="Assets/Scripts/Universal Scripts/AttackUniversal.cs" Line="58" Column="37" />
-      <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimationDelegate.cs" Line="79" Column="28" />
+      <File FileName="Assets/Scripts/Universal Scripts/CharacterAnimationDelegate.cs" Line="13" Column="48" />
       <File FileName="Assets/Scripts/Helper Scripts/DeactivateGameObject.cs" Line="18" Column="37" />
-      <File FileName="Assets/Scripts/Universal Scripts/HealthScript.cs" Line="36" Column="102" />
+      <File FileName="Assets/Scripts/Universal Scripts/HealthScript.cs" Line="22" Column="21" />
       <File FileName="Assets/Scripts/Camera Scripts/ShakeCamera.cs" Line="27" Column="17" />
       <File FileName="Assets/Scripts/Helper Scripts/EnemyManager.cs" Line="22" Column="22" />
+      <File FileName="Assets/Scripts/Universal Scripts/HealthUI.cs" Line="21" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,11 +25,16 @@
                 <Node name="Helper Scripts" expanded="True" />
                 <Node name="Player Scripts" expanded="True" />
                 <Node name="Universal Scripts" expanded="True">
-                  <Node name="CharacterAnimationDelegate.cs" selected="True" />
+                  <Node name="HealthScript.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
           </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="FightClub" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
